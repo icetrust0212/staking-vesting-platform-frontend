@@ -3,10 +3,20 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { Avalanche, Config, DAppProvider, Mainnet } from '@usedapp/core';
+
+const config: Config = {
+  readOnlyChainId: Avalanche.chainId,
+  readOnlyUrls: {
+    [Avalanche.chainId]: 'https://api.avax.network/ext/bc/C/rpc',
+  },
+}
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <DAppProvider config={config}>
+      <App />
+    </DAppProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

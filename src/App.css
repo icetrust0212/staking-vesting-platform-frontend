@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+:root {
+  --max-width: 1450px;
+  --active-color: #2a2c54;
+  --primary-color: #191a32;
+  --highlight-color: #df3f3d;
+}
+
+.bn-onboard-custom  {
+  z-index: 100;
+}

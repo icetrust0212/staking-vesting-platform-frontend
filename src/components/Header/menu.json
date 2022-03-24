@@ -1,0 +1,26 @@
+[{
+    "text": "Home",
+    "link": "/",
+    "name": "home"
+  },
+  {
+    "text": "About",
+    "link": "/#about",
+    "name": "about"
+  },
+  {
+    "text": "Roadmap",
+    "link": "/#roadmap",
+    "name": "roadmap"
+  },
+  {
+    "text": "Our Team",
+    "link": "/#team",
+    "name": "team"
+  },
+  {
+    "text": "FAQs",
+    "link": "/#faq",
+    "name": "faq"
+  }
+]
