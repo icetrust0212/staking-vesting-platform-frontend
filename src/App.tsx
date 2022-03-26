@@ -5,6 +5,7 @@ import HomePage from './pages/Home';
 import Roost from './pages/Roost';
 import "./assets/styles/style.css";
 import "./assets/styles/fonts.css";
+import Farm from './pages/Farm';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/roost" element={<Roost />} />
+            <Route path="/farm" element={<Farm />} />
           </Routes>
         </AppLayout>
       </BrowserRouter>
